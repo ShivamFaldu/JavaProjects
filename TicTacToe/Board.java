@@ -63,12 +63,7 @@ public class Board {
         
         
     
-    }
-    public static void main (String [] args){
-        Board g = new Board ();
-        
-    
-    }
+   
     //this was kept seperate from the constructor to make creating a new game easier process
     private void go (){
         for (int i = 0; i <9 ; i++){
