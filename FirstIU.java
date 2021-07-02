@@ -34,6 +34,7 @@ public class FirstIU {
         JLabel title = new JLabel ("Welcome to the Random Word Generator");
         JButton button = new JButton ("Lets Begin");
         button.setFocusable(false);
+        button.addActionListener(new Button ());
         button.setSize(5, 5);
         
        
@@ -72,6 +73,9 @@ public class FirstIU {
         @Override
         public void actionPerformed(ActionEvent e) {
             frame.toBack();
+            frame.setVisible(false);
+            Generator g = new Generator ();
+            g.Generator();
             
             
         }

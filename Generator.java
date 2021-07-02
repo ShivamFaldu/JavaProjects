@@ -72,6 +72,7 @@ public class Generator {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
         frame.setSize(800, 500);
+        frame.toFront();
         
     
     }
