@@ -240,8 +240,8 @@ public class Board {
       }
       if ("O".equals(button[2].getText()) && "O".equals(button[4].getText()) && "O".equals(button[6].getText())){
           button[2].setBackground(Color.blue);
-          button[5].setBackground(Color.blue);
-          button[8].setBackground(Color.blue);
+          button[4].setBackground(Color.blue);
+          button[6].setBackground(Color.blue);
           oWins();
       }
       
@@ -296,5 +296,5 @@ public class Board {
     
     
     }
-    
+    //this is a test
 }
